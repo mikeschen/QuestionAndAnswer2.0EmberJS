@@ -1,0 +1,14 @@
+{ "questions": [{
+		"query": "What is the average air speed velocity of a unladen swallow?",
+		"author": "Bridgekeeper",
+		"notes": "African or European?"
+	}, {
+		"query": "What is your favorite color?",
+		"author": "King Arthur",
+		"notes": "Black is not a color"
+	}, {
+		"query": "What is the meaning of life?",
+		"author": "Ford Prefect",
+		"notes": "Is it 42?"
+	}]
+}
