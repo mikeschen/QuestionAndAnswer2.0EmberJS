@@ -1,8 +1,15 @@
 <div class="white">
 	<h3>Question Asked By {{model.author}}:</h3>
 </div>
+{{update-question question=model update="update"}}
 
 {{question-detail question=model}}
-{{update-question question=model update="update"}}
+
+{{new-answer answerSave2="answerSave3" question=model}}
+
+{{#each model.answers as |answer|}}
+  {{answer-tile answer=answer}}
+{{/each}}
+
 
 
