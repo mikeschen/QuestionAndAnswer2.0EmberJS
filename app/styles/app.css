@@ -6,6 +6,14 @@ body {
   color: #757575;
 }
 
+label {
+  display:block;
+}
+
+textarea {
+  display:block;
+}
+
 .white {
 	color: #e9edf0;
 }
