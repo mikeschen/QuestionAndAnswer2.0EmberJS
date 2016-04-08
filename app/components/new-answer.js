@@ -13,7 +13,6 @@ export default Ember.Component.extend({
       detail: this.get('detail'),
       question: this.get('question')
     };
-    console.log(answerParams);
     this.set('addNewAnswer', false);
     this.set('name', "");
     this.set('detail', "");
