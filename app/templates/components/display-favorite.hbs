@@ -1,0 +1,4 @@
+{{#each favoriteList.favorites as |favorite|}}
+  <h3><span class="red">Q: </span>{{#link-to 'question' favorite.id}}{{favorite.query}}{{/link-to}}</h3>
+	<p>Asked By: {{favorite.author}}</p>
+ {{/each}}

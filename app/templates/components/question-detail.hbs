@@ -1,4 +1,11 @@
 <div id="post">
 	<h4><span class="red">Q: </span>{{question.query}}</h4>
 	Notes: {{question.notes}}
+  <div>
+  {{#if question.onList}}
+    <h5>Added To Favs</h5>
+  {{else}}
+		<button class="btn btn-success" {{action 'addToFav' question}}>Fav &#9733;</button>
+	{{/if}}
+	</div>
 </div>
