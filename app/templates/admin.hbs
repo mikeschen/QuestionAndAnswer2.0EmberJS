@@ -1,0 +1,12 @@
+<div class="white">
+	<h3>Welcome Admin!</h3>
+</div>
+	<hr>
+	<ul>
+	{{#each model.questions as |question|}}
+	  <div class="white">
+	    <li>{{question.query}}</li>
+	  </div>
+	  {{delete-answer question=question destroyAnswer="destroyAnswer"}}
+	{{/each}}
+	</ul>

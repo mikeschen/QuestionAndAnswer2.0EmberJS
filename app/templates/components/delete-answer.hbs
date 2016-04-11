@@ -1,0 +1,4 @@
+{{#each question.answers as |answer|}}
+  {{answer-tile answer=answer}}
+  <button class="btn btn-danger"{{action 'delete' answer}}>Delete</button>
+{{/each}}
