@@ -5,8 +5,9 @@
 	<ul>
 	{{#each model.questions as |question|}}
 	  <div class="white">
-	    <li>{{question.query}}</li>
+	    <li><span class="large">{{question.query}}</span></li>
 	  </div>
+	  {{delete-question question = question destroyQuestion="destroyQuestion"}}
 	  {{delete-answer question=question destroyAnswer="destroyAnswer"}}
 	{{/each}}
 	</ul>

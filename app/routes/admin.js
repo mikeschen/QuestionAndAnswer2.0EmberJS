@@ -12,6 +12,10 @@ export default Ember.Route.extend({
 		destroyAnswer(answer) {
 			answer.destroyRecord();
 			this.transitionTo('admin');
+		},
+		destroyQuestion(question) {
+			question.destroyRecord();
+			this.transitionTo('admin');
 		}
 	}
 });
