@@ -3,6 +3,14 @@ body {
 	background-color: #242424;
 }
 
+.jumbotron {
+  font-family: 'Bangers', cursive;
+  font-size: 20px;
+  color: #ededed;
+  background-image: url("http://www.nova.org.au/sites/default/files/article-banner-image/2-mars-banner.jpg");
+  background-color: black;
+}
+
 .about {
   font-size: 20px;
   color: #e9edf0;
