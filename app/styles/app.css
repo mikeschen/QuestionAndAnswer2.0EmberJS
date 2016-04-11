@@ -11,6 +11,10 @@ body {
   background-color: black;
 }
 
+#admin {
+  float: right;
+}
+
 .about {
   font-size: 20px;
   color: #e9edf0;
