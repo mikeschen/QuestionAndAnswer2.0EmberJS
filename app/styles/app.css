@@ -11,30 +11,8 @@ body {
   background-color: black;
 }
 
-#admin {
-  float: right;
-}
-
-.about {
-  font-size: 20px;
-  color: #e9edf0;
-  text-align: center;
-}
-
 .large {
   font-size: 20px;
-}
-
-.form-group{
-  color: #757575;
-}
-
-label {
-  display:block;
-}
-
-textarea {
-  display:block;
 }
 
 .white {
@@ -47,20 +25,4 @@ textarea {
 
 .red {
   color: #cc0000;
-}
-
-#post {
-  background-color: #e9edf0;
-  border-radius: 20px;
-  padding: 15px;
-  margin: 5px;
-  max-width: 500px;
-}
-
-#postanswer {
-  background-color: #EBCED1;
-  border-radius: 20px;
-  padding: 15px;
-  margin: 5px;
-  max-width: 500px;
 }
